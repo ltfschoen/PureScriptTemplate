@@ -1,5 +1,4 @@
-ruby-2.1.2 
-~/code/git/learning $ npm install -g grunt-init
+$ npm install -g grunt-init
 /usr/local/bin/grunt-init -> /usr/local/lib/node_modules/grunt-init/bin/grunt-init
 grunt-init@0.3.2 /usr/local/lib/node_modules/grunt-init
 ├── semver@1.0.14
@@ -9,30 +8,21 @@ grunt-init@0.3.2 /usr/local/lib/node_modules/grunt-init
 ├── lodash@2.4.1
 ├── grunt@0.4.5 (which@1.0.8, dateformat@1.0.2-1.2.3, eventemitter2@0.4.14, getobject@0.1.0, rimraf@2.2.8, async@0.1.22, grunt-legacy-util@0.2.0, exit@0.1.2, lodash@0.9.2, nopt@1.0.10, coffee-script@1.3.3, underscore.string@2.2.1, iconv-lite@0.2.11, glob@3.1.21, grunt-legacy-log@0.1.1, minimatch@0.2.14, findup-sync@0.1.3, js-yaml@2.0.5)
 └── prompt@0.1.12 (async@0.1.22, pkginfo@0.3.0, winston@0.5.11)
-ruby-2.1.2 
-~/code/git/learning $ mkdir ~/.grunt-init
-ruby-2.1.2 
-~/code/git/learning $ git glone https://github.com/purescript-contrib/grunt-init-purescript.git \ 
-git: 'glone' is not a git command. See 'git --help'.
 
-Did you mean this?
-	clone
-ruby-2.1.2 
-~/code/git/learning $ git clone https://github.com/purescript-contrib/grunt-init-purescript.git ~/.grunt-init/purescript 
+$ mkdir ~/.grunt-init
+
+$ git clone https://github.com/purescript-contrib/grunt-init-purescript.git ~/.grunt-init/purescript 
 Cloning into '/Users/Luke/.grunt-init/purescript'...
 remote: Counting objects: 61, done.
 remote: Total 61 (delta 0), reused 0 (delta 0)
 Unpacking objects: 100% (61/61), done.
 Checking connectivity... done.
-ruby-2.1.2 
-~/code/git/learning $ ls
-purescript_by_example
-ruby-2.1.2 
-~/code/git/learning $ mkdir purescript-grunt-template-test
-ruby-2.1.2 
-~/code/git/learning $ cd purescript-grunt-template-test/
-ruby-2.1.2 
-~/code/git/learning/purescript-grunt-template-test $ grunt-init purescript
+
+$ mkdir purescript-grunt-template-test
+
+cd purescript-grunt-template-test/
+
+$ grunt-init purescript
 Running "init:purescript" (init) task
 This task will create one or more files in the current directory, based on the
 environment and the answers to a few questions. Note that answering "?" to any
@@ -66,8 +56,8 @@ You can now build the project as follows:
   grunt
 
 Done, without errors.
-ruby-2.1.2 
-~/code/git/learning/purescript-grunt-template-test $ npm install
+
+$ npm install
 grunt-contrib-copy@0.5.0 node_modules/grunt-contrib-copy
 
 grunt-purescript@0.6.0 node_modules/grunt-purescript
@@ -98,8 +88,8 @@ grunt@0.4.5 node_modules/grunt
 ├── findup-sync@0.1.3 (lodash@2.4.1, glob@3.2.11)
 ├── grunt-legacy-log@0.1.1 (underscore.string@2.3.3, lodash@2.4.1)
 └── js-yaml@2.0.5 (esprima@1.0.4, argparse@0.1.16)
-ruby-2.1.2 
-~/code/git/learning/purescript-grunt-template-test $ bower update
+
+$ bower update
 bower cached        git://github.com/purescript/purescript-foldable-traversable.git#0.2.1
 bower validate      0.2.1 against git://github.com/purescript/purescript-foldable-traversable.git#*
 bower cached        git://github.com/purescript/purescript-quickcheck.git#0.3.2
